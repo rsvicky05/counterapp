@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Counter"
+        android:textSize="64sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="0"
+        android:textSize="68sp"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCounter"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@id/tvCounter"
+        android:text="Increase" />
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCounter"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_toEndOf="@id/tvCounter"
+        android:text="Decrease" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnIncrease"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Reset" />
+
+</RelativeLayout>
