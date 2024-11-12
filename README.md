@@ -1,7 +1,6 @@
 Step 1: Setting Up the Project
     Open Android Studio and create a new project:
-    
-      Select Empty Activity.
+    Select Empty Activity.
       Name the project "CounterApp".
       Choose Java as the language.
       Leave other options at their default values.
@@ -10,12 +9,10 @@ Step 1: Setting Up the Project
 
 Step 2: Design the User Interface (UI)
     Open activity_main.xml under res/layout.
-    
     Edit this file to create a layout with a TextView to display the counter, two buttons for increasing and decreasing the counter, and a third button to reset it.
 
 Step 3: Implement the Functionality in MainActivity.java
     Open MainActivity.java in the java directory.
-    
     Define variables and set up OnClickListener for each button to update the counter and display it in tvCounter.
 
 Step 4: Run the App
